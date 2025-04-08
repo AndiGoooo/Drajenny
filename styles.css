@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html, body {
   height: 100%;
 }
@@ -69,7 +68,6 @@ nav a {
   transform: translateY(20px);
   transition: opacity 1s ease, transform 1s ease;
 }
-
 .quote-small {
   font-family: "Merriweather", serif;
   font-size: 18px;
@@ -82,12 +80,10 @@ nav a {
   transform: translateY(20px);
   transition: opacity 1s ease, transform 1s ease;
 }
-
 .visible {
   opacity: 1 !important;
   transform: translateY(0) !important;
 }
-
 /* Ajuste para pantallas grandes */
 @media (min-width: 768px) {
   .quote {
