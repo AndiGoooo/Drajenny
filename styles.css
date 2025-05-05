@@ -228,7 +228,7 @@ body {
 
 .busto { width: 60px; } }
 .footer {
-  background-color: rgba(251, 255, 121, 0.85); /* mismo color que header con transparencia */
+  background-color: rgba(251, 255, 121, 0.85);
   text-align: center;
   padding: 20px;
   font-size: 14px;
@@ -265,8 +265,6 @@ body {
   border-radius: 40px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-
-
 
 .contenido {
   display: flex;
@@ -403,7 +401,7 @@ body {
 
 .bloque-servicio img {
   max-width: 250px;
-  border-radius: 50%;
+  border-radius: none;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
