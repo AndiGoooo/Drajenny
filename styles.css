@@ -401,9 +401,7 @@ body {
 
 .bloque-servicio img {
   max-width: 250px;
-  border-radius: none;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .texto-servicio h2 {
