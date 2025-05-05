@@ -552,27 +552,33 @@ body {
   max-width: 700px;
   color: #1a1a1a;
 }
-
 .formulario-contacto {
-  background-color: #fff6ce;
-  border-radius: 30px;
-  padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin: 0 auto 40px;
-  max-width: 700px;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 15px;
 }
 
 .formulario-contacto input,
 .formulario-contacto textarea {
-  border: none;
-  border-radius: 20px;
-  padding: 15px;
+  padding: 10px;
   font-size: 16px;
-  font-family: 'Nunito', sans-serif;
-  background-color: #fff1b3;
-  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.formulario-contacto button {
+  padding: 12px;
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+  background-color: #003f99;
 }
 
 .terminos {
