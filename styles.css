@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Nunito:wght@200;400;600;800&display=swap');
 
-/* Reset y base */
 * {
   margin: 0;
   padding: 0;
@@ -10,17 +9,16 @@
 html, body {
   height: 100%;
   font-family: 'Nunito', sans-serif;
-  color: #2a2a2a;
+  color: #1E2568;
   background: url('Fondo-marmol.jpg') no-repeat center center fixed;
   background-size: cover;
   padding-top: 120px;
 }
 
-/* Tipografía general */
 h1, .titulo-seccion, .titulo-testimonios {
   font-family: 'Merriweather', serif;
   font-size: 2.5rem;
-  color: #003d66;
+  color: #1E2568;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -28,7 +26,7 @@ h1, .titulo-seccion, .titulo-testimonios {
 h2 {
   font-family: 'Merriweather', serif;
   font-size: 1.5rem;
-  color: #003d66;
+  color: #1951A0;
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -36,7 +34,7 @@ h2 {
 h3 {
   font-family: 'Merriweather', serif;
   font-size: 1.2rem;
-  color: #003d66;
+  color: #1951A0;
   margin-top: 1.5rem;
 }
 
@@ -46,12 +44,11 @@ p {
   text-align: justify;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(251, 255, 121);
+  background: #FDD94D;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -74,7 +71,7 @@ p {
 
 .nav-links a {
   text-decoration: none;
-  color: #2a2a2a;
+  color: #1E2568;
   font-size: 18px;
   padding: 6px 10px;
   border-radius: 5px;
@@ -86,11 +83,10 @@ p {
 }
 
 .nav-links a:active {
-  background-color: #003d66;
+  background-color: #1951A0;
   color: white;
 }
 
-/* Botón hamburguesa */
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -99,14 +95,13 @@ p {
   cursor: pointer;
 }
 
-/* Responsive nav */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
     position: absolute;
     top: 100%;
     right: 20px;
-    background: rgb(251, 255, 121);
+    background: #FDD94D;
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
@@ -120,7 +115,6 @@ p {
   }
 }
 
-/* Sección Hero */
 .hero {
   max-width: 800px;
   margin: auto;
@@ -160,14 +154,12 @@ p {
   transform: translateY(0) !important;
 }
 
-/* Footer */
 .footer {
-  background-color: rgba(251, 255, 121, 0.85);
+  background-color: #FDD94D;
   text-align: center;
   padding: 20px;
+  width: 100%;
   border-radius: 50px 50px 0 0;
-  width: 95%;
-  margin: 40px auto 0;
   font-size: 14px;
 }
 
@@ -179,19 +171,29 @@ p {
 }
 
 .footer-social a {
-  color: #003d66;
+  color: #1E2568;
   font-size: 22px;
 }
 
-/* Servicios */
-.servicios {
+/* Bloques con fondo suave */
+.bloque-suave, .servicios, .testimonios, .dra-jenny, .contacto, .terminos {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
   max-width: 90%;
   margin: auto;
   padding: 3rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+.estrella {
+  text-align: center;
+  font-size: 48px;
+  color: #F9B000;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/* Servicios */
 .bloque-servicio {
   display: flex;
   flex-direction: column;
@@ -228,15 +230,8 @@ p {
 }
 
 /* Contacto */
-.contacto {
-  text-align: center;
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-}
-
 .formulario-contacto {
-  background-color: #fff6ce;
+  background-color: #FFF9C7;
   padding: 2rem;
   border-radius: 40px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -254,7 +249,7 @@ p {
 }
 
 .formulario-contacto button {
-  background-color: #f4c542;
+  background-color: #F9B000;
   color: black;
   border: none;
   border-radius: 20px;
@@ -263,5 +258,5 @@ p {
 }
 
 .formulario-contacto button:hover {
-  background-color: #e3b233;
+  background-color: #E3B233;
 }
