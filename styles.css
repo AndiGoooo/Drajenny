@@ -48,7 +48,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: DE9E35;
+  background-color: #FFF9C7;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -88,6 +88,7 @@ p {
 }
 
 .menu-toggle {
+  background-color: FFF9C7;
   display: none;
   font-size: 28px;
   background: none;
@@ -205,7 +206,7 @@ p {
 }
 
 .footer {
-  background-color: F3DE89;
+  background-color: #FFF9C7;
   text-align: center;
   padding: 30px 20px;
   border-radius: 50px 50px 0 0;
@@ -454,11 +455,13 @@ p {
 
 .punto {
   position: absolute;
-  width: 18px;
-  height: 18px;
-  background-color: #f9b000;
-  border: 2px solid #1e2568;
-  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon fill='%23f9b000' stroke='%231e2568' stroke-width='5' points='50,0 61,35 98,35 68,57 79,91 50,70 21,91 32,57 2,35 39,35'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0;
   cursor: pointer;
   z-index: 2;
   transition: transform 0.2s ease;
