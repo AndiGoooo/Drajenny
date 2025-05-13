@@ -131,7 +131,7 @@ p {
 
 .quote {
   font-family: "Merriweather", serif;
-  font-size: 2rem;
+  font-size: 5rem;
   color: #003d66;
   margin-bottom: 20px;
   opacity: 0;
@@ -140,6 +140,7 @@ p {
 }
 
 .quote-small {
+  text-align: center;
   font-family: "Merriweather", serif;
   font-size: 1rem;
   color: #003d66;
