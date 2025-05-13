@@ -193,13 +193,6 @@ p {
   flex-shrink: 0;
 }
 
-.estrella {
-  font-size: 36px;
-  color: #003d66;
-  margin-bottom: 40px;
-  display: inline-block;
-}
-
 .visible {
   opacity: 1 !important;
   transform: translateY(0) !important;
