@@ -506,11 +506,11 @@ p {
 }
 
 .estrella {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 32px;
-  color: #1e2568;
+  font-size: 40px;
+  color: #f9b000;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
 }
 
 .contenido-doctora {
