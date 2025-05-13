@@ -243,17 +243,25 @@ p {
 }
 
 /* Servicios */
+.servicios {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  max-width: 90%;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
 .bloque-servicio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem; /* Reducido para que texto e imagen estén más cerca */
   margin: 2rem 0;
 }
 
 .bloque-servicio img {
-  max-width: 250px;
-  margin-top: 10px;
+  max-width: 220px; /* Tamaño más controlado */
+  margin-top: 0; /* Elimina separación superior innecesaria */
 }
 
 .bloque-servicio.reverse {
@@ -262,21 +270,26 @@ p {
 
 .texto-servicio {
   text-align: center;
+  padding: 0 1rem; /* Menor separación horizontal */
 }
-
+}
 @media (min-width: 768px) {
   .bloque-servicio {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Reduce espacio entre imagen y texto en escritorio */
   }
+
   .bloque-servicio.reverse {
     flex-direction: row-reverse;
   }
+
   .texto-servicio {
     max-width: 500px;
     text-align: left;
+    padding: 0 1rem;
   }
-}
 .testimonios {
   max-width: 90%;
   margin: 0 auto;
