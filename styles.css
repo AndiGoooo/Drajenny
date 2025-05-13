@@ -10,7 +10,7 @@ html, body {
   height: 100%;
   font-family: 'Nunito', sans-serif;
   color: #1E2568;
-  background: url('Fondo-marmol.jpg') no-repeat center center fixed;
+  background: url('marmol.jpg') no-repeat center center fixed;
   background-size: cover;
   padding-top: 120px;
 }
