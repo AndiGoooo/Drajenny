@@ -149,7 +149,7 @@ p {
   transition: all 1s ease;
 }
 .citas-arte {
-  background-color: rgba(255, 249, 199, 0.3); /* color suave translúcido */
+  background-color: rgba(255, 249, 199, 0.3);
   padding: 60px 30px;
   text-align: center;
   margin: 60px auto;
@@ -204,13 +204,19 @@ p {
 }
 
 .footer {
-  background-color: #FDD94D;
+  background-color: #fdd94f;
   text-align: center;
-  padding: 20px;
-  width: 100%;
+  padding: 30px 20px;
   border-radius: 50px 50px 0 0;
+  width: 100%;
+  margin-top: 50px;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
+
 
 .footer-social {
   display: flex;
@@ -232,6 +238,7 @@ p {
   margin: auto;
   padding: 3rem 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 60px;
 }
 
 .estrella {
@@ -255,13 +262,13 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem; /* Reducido para que texto e imagen estén más cerca */
+  gap: 0.2rem;
   margin: 2rem 0;
 }
 
 .bloque-servicio img {
-  max-width: 220px; /* Tamaño más controlado */
-  margin-top: 0; /* Elimina separación superior innecesaria */
+  max-width: 220px;
+  margin-top: 0; 
 }
 
 .bloque-servicio.reverse {
@@ -270,7 +277,7 @@ p {
 
 .texto-servicio {
   text-align: center;
-  padding: 0 1rem; /* Menor separación horizontal */
+  padding: 0 1rem;
 }
 }
 @media (min-width: 768px) {
@@ -278,7 +285,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem; /* Reduce espacio entre imagen y texto en escritorio */
+    gap: 1rem;
   }
 
   .bloque-servicio.reverse {
