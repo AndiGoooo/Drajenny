@@ -277,6 +277,75 @@ p {
     text-align: left;
   }
 }
+.testimonios {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.titulo-testimonios {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #003d66;
+  margin-bottom: 2rem;
+}
+
+.testimonio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 1.5rem;
+}
+
+.testimonio.reverse {
+  flex-direction: column-reverse;
+}
+
+.testimonio img {
+  max-width: 240px;
+  height: auto;
+}
+
+.texto-testimonio {
+  max-width: 600px;
+  text-align: center;
+}
+
+.texto-testimonio h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  color: #003d66;
+  margin-bottom: 0.5rem;
+}
+
+.texto-testimonio p {
+  font-size: 1rem;
+  color: #2a2a2a;
+  line-height: 1.5;
+}
+
+/* Versión en pantalla ancha */
+@media (min-width: 768px) {
+  .testimonio {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonio.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .texto-testimonio {
+    text-align: left;
+    padding: 0 2rem;
+  }
+}
 
 /* Contacto */
 .formulario-contacto {
