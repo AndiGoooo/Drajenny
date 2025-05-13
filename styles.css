@@ -383,7 +383,7 @@ p {
 /* Contacto */
 .formulario-contacto {
   background-color: #FFF9C7;
-  padding: 2rem;
+  padding: 20px;
   border-radius: 40px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
