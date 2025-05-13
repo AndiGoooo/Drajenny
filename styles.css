@@ -48,7 +48,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:F3DE89;
+  background-color: DE9E35;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -437,4 +437,59 @@ p {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.imagen-interactiva {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.imagen-interactiva img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.punto {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #f9b000;
+  border: 2px solid #1e2568;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.punto:hover {
+  transform: scale(1.2);
+}
+
+.tooltip {
+  visibility: hidden;
+  width: max-content;
+  max-width: 200px;
+  background-color: rgba(30, 37, 104, 0.9);
+  color: white;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.punto:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
