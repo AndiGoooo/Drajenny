@@ -141,6 +141,7 @@ p {
 }
 
 .quote-small {
+  align-items: center;
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 1rem;
@@ -199,7 +200,7 @@ p {
 }
 
 .footer {
-  background-color: #FFFAD2;
+  background-color: #FFFAD2 ; 
   text-align: center;
   padding: 30px 20px;
   border-radius: 50px 50px 0 0;
@@ -228,6 +229,7 @@ p {
 /* Bloques con fondo suave */
 .bloque-suave, .servicios, .testimonios, .dra-jenny, .contacto, .terminos {
   background-color: rgba(255, 255, 255, 0.3);
+  justify-content: center;
   border-radius: 40px;
   max-width: 90%;
   margin: auto;
