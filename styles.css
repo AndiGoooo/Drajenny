@@ -48,7 +48,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFF9C7;
+  background-color: #BCD5F0;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -88,7 +88,7 @@ p {
 }
 
 .menu-toggle {
-  background-color: FFF9C7;
+  background-color:#BCD5F0;
   display: none;
   font-size: 28px;
   background: none;
@@ -199,7 +199,7 @@ p {
 }
 
 .footer {
-  background-color: #FFF9C7;
+  background-color: #BCD5F0;
   text-align: center;
   padding: 30px 20px;
   border-radius: 50px 50px 0 0;
