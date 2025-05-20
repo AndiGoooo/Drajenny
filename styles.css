@@ -450,7 +450,7 @@ p {
   position: absolute;
   width: 24px;
   height: 24px;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon fill='%23f9b000' stroke='%231e2568' stroke-width='5' points='50,0 61,35 98,35 68,57 79,91 50,70 21,91 32,57 2,35 39,35'/></svg>");
+  background-image: url("");
   background-size: cover;
   background-repeat: no-repeat;
   border: none;
