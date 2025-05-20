@@ -48,7 +48,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #BCD5F0;
+  background-color: #FFFAD2;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -102,7 +102,7 @@ p {
     position: absolute;
     top: 100%;
     right: 20px;
-    background:#FDD94D;
+    background:#FFFAD2;
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
@@ -199,7 +199,7 @@ p {
 }
 
 .footer {
-  background-color: #BCD5F0;
+  background-color: #FFFAD2;
   text-align: center;
   padding: 30px 20px;
   border-radius: 50px 50px 0 0;
@@ -382,6 +382,7 @@ p {
 
 /* Contacto */
 .formulario-contacto {
+  max-width: 80%;
   background-color: #FFF9C7;
   padding: 20px;
   border-radius: 40px;
