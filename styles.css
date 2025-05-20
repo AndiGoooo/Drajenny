@@ -384,7 +384,7 @@ p {
 
 /* Contacto */
 .formulario-contacto {
-  align: center center;
+  justify-content: center;
   max-width: 80%;
   background-color: #FFF9C7;
   padding: 20px;
