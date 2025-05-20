@@ -83,7 +83,7 @@ p {
 }
 
 .nav-links a:active {
-  background-color: #1951A0;
+  background-color:#1951A0;
   color: white;
 }
 
@@ -102,7 +102,7 @@ p {
     position: absolute;
     top: 100%;
     right: 20px;
-    background: #FDD94D;
+    background:#FDD94D;
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
@@ -133,7 +133,7 @@ p {
 .quote {
   font-family: "Merriweather", serif;
   font-size: 5rem;
-  color: #003d66;
+  color:#003d66;
   margin-bottom: 20px;
   opacity: 0;
   transform: translateY(20px);
