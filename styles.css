@@ -399,7 +399,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 30px;
-max-width: 80%;
 }
 
 .formulario-contacto input,
@@ -569,4 +568,18 @@ max-width: 80%;
   .texto-doctora {
     text-align: center;
   }
+}
+.boton-amarillo {
+background-color: #F9B000;
+color: black;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+
+.boton-amarillo:hover {
+background-color: #E3B233;
 }
