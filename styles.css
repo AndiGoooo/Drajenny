@@ -394,6 +394,12 @@ p {
   flex-direction: column;
   gap: 15px;
 }
+  .contenedor-formulario {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
 
 .formulario-contacto input,
 .formulario-contacto textarea {
